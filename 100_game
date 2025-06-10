@@ -13,7 +13,7 @@ while num < 100:
     # T1 and T2 here refers to first player turn and second player turn respectivly
     T1 = int(input("Player 1, please enter a number from 1 to 10\n"))
     num += T1
-    if (T1 > 10) or (T1 < 1):
+    if (T1 > 10) or (T1 < 1) or num > 100:
         if num > 100:
             print("Progress overflow\n")
         # this line is to return num to it's value before last increment
